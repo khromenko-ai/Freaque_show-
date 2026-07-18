@@ -83,6 +83,14 @@ const translations: Record<Language, Dictionary> = {
       dates_label: 'Даты выставки',
       dates_val: 'СЕГОДНЯ — БЕСКОНЕЧНОСТЬ',
       cta: 'ПОЙМАЙ СВОЙ РИТМ'
+    },
+    philosophy: {
+      title: 'Теория',
+      titleHighlight: 'Ритмоанализа',
+      quote_p1: 'Тот, кто собирается изучать ритмы, не может делать это в абстракции, как сторонний наблюдатель. Ритмоаналитик думает своим телом, не отрываясь от переживаемой темпоральности. Он слушает — и прежде всего свое тело; он учится у него ритму, чтобы затем оценивать внешние ритмы. Собственное тело служит ему метрономом.',
+      quote_p2: 'Без сомнения, чтобы уловить ритм, нужно быть им захваченным, включенным в него. Но для того, чтобы его анализировать, от него необходимо дистанцироваться. Ритмоаналитик должен совмещать соучастие и отстраненность. Наблюдение за ритмом начинается изнутри, со своего "я", но требует взгляда со стороны. Его тело — это не просто инструмент, это первый объект наблюдения, через который он понимает все остальные структуры: город, толпу, природу.',
+      author: 'Анри Лефевр',
+      book: '«Ритмоанализ: Пространство, время и повседневность»'
     }
   },
   'ENG': {
@@ -159,6 +167,14 @@ const translations: Record<Language, Dictionary> = {
       dates_label: 'Exhibition Dates',
       dates_val: 'TODAY — INFINITY',
       cta: 'CATCH YOUR RHYTHM'
+    },
+    philosophy: {
+      title: 'Theory of',
+      titleHighlight: 'Rhythmanalysis',
+      quote_p1: 'The rhythmanalyst will not be obliged to jump from the inside to the outside of observed bodies... He thinks with his body, not in the abstract, but in lived temporality. He listens – and first to his body; he learns rhythm from it, in order consequently to appreciate external rhythms. His body serves him as a metronome.',
+      quote_p2: 'No doubt, in order to grasp a rhythm it is necessary to have been grasped by it; one must let oneself go, give oneself over, abandon oneself to its duration. But to analyse it, a certain distance is indispensable... The rhythmanalyst must combine complicity with distance. Observation of rhythms starts from within, from itself, but requires an external look. His body is not just an instrument, it is the first object of observation through which he understands the other structures: the city, the crowd, nature.',
+      author: 'Henri Lefebvre',
+      book: 'Rhythmanalysis: Space, Time and Everyday Life'
     }
   },
   'ESP': {
@@ -235,6 +251,14 @@ const translations: Record<Language, Dictionary> = {
       dates_label: 'Fechas de exposición',
       dates_val: 'HOY — INFINITO',
       cta: 'TOMA TU RITMO'
+    },
+    philosophy: {
+      title: 'Teoría del',
+      titleHighlight: 'Ritmoanálisis',
+      quote_p1: 'Quien se propone estudiar los ritmos no puede hacerlo en la abstracción, como tercero... Él piensa con su cuerpo, no en abstracto, sino en temporalidad vivida. Él escucha, y primero a su cuerpo; aprende el ritmo de él, para en consecuencia apreciar los ritmos externos. Su cuerpo le sirve de metrónomo.',
+      quote_p2: 'Sin duda, para captar un ritmo es necesario haber sido captado por él, volverse parte del mismo. Pero para analizarlo es necesario un cierto distanciamiento. El ritmoanalista debe combinar la complicidad con el distanciamiento. La observación de los ritmos parte del interior, de sí mismo, pero requiere una mirada externa. Su cuerpo no es sólo un instrumento, es el primer objeto de observación a través del cual comprende las demás estructuras: la ciudad, la multitud, la naturaleza.',
+      author: 'Henri Lefebvre',
+      book: 'El Ritmoanálisis: Espacio, Tiempo y Vida Cotidiana'
     }
   }
 };

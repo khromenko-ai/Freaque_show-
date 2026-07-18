@@ -7,6 +7,7 @@ import { StrictMode } from 'react';
 import { Hero } from './components/Hero';
 import { ActSection } from './components/ActSection';
 import { TimelineSection } from './components/TimelineSection';
+import { PhilosophySection } from './components/PhilosophySection';
 import { MapSection } from './components/MapSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { TicketsSection } from './components/TicketsSection';
@@ -57,6 +58,8 @@ export default function App() {
 
       <TimelineSection />
       
+      <PhilosophySection />
+
       <MapSection />
       
       <ReviewsSection />
