@@ -1,0 +1,6 @@
+{
+  "name": "FREAQUE",
+  "description": "Иммерсивное шоу дискретных процессов. Механизм, где каждый перформанс живет в собственном ритме.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

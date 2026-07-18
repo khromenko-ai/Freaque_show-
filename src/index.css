@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-[#050505] text-white font-sans overflow-x-hidden;
+}
+
+@keyframes neon-flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f0f,
+      0 0 73px #f0f,
+      0 0 80px #f0f,
+      0 0 94px #f0f,
+      0 0 140px #f0f;
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+    color: #444;
+  }
+}
+
+.neon-logo {
+  animation: neon-flicker 3s infinite alternate;
+}
+
+@keyframes overlay-flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    opacity: 1;
+    filter: contrast(1.5);
+  }
+  20%, 24%, 55% {       
+    opacity: 0;
+  }
+}
+
+.neon-overlay-flicker {
+  animation: overlay-flicker 3.5s infinite alternate;
+}
